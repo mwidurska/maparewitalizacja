@@ -125,10 +125,12 @@ info.update = function (props) {
     if (props) {
         if (props.PRtype) {
             this._div.innerHTML = '<h2>Informacje o gminie</h2>' + '<b><p>' + props.name + '</b></p><p>Rodzaj programu: ' 
-            + props.PRtype + '</p><p>Tytuł programu: '+ props.PRname + '</p><p>' + props.description + '</p><p><a href="$props.link"> Link do programu rewitalizacji </a></p>';
+            + props.PRtype + '</p><p>Tytuł programu: '+ props.PRname + '</p><p>' + props.description + 
+            '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
         } else {
-            this._div.innerHTML = '<h2>Informacje o projekcie</h2>' + '<b><p>Tytuł projektu: ' + props.title + '</b></p><p>' + props.description + '</p>';
+            this._div.innerHTML = '<h2>Informacje o projekcie</h2>' + '<b><p>Tytuł projektu: ' + props.title + '</b></p><p>' + props.description +
+            '</p>';
         }
 
     } else {
@@ -156,7 +158,7 @@ displayCommune(bialowiezaCommune);
 displayCommune(bielskPodlaskiCity);
 displayCommune(bockiCommune);
 displayCommune(czarnaBialostockaCommune);
-displayCommune(gordekCommune);
+displayCommune(grodekCommune);
 displayCommune(hajnowkaCity);
 displayCommune(hajnowkaCommune);
 displayCommune(juchnowiecKoscielnyCommune);
