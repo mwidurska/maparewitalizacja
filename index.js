@@ -151,15 +151,32 @@ legend.onAdd = function (map) {
 
 legend.addTo(map);
 
-displayCommune(hajnowkaCommune);
-displayCommune(lomzaCommune);
+displayCommune(augustowCity);
 displayCommune(bialowiezaCommune);
 displayCommune(bielskPodlaskiCity);
+displayCommune(bockiCommune);
+displayCommune(czarnaBialostockaCommune);
+displayCommune(gordekCommune);
+displayCommune(hajnowkaCity);
+displayCommune(hajnowkaCommune);
+displayCommune(juchnowiecKoscielnyCommune);
+displayCommune(kolnoCity);
+displayCommune(kolnoCommune);
+displayCommune(krynkiCommune);
 displayCommune(lapyCommune);
+displayCommune(lomzaCity);
+displayCommune(lomzaCommune);
+displayCommune(monkiCommune);
+displayCommune(narewkaCommune);
+displayCommune(sejnyCity);
 displayCommune(siemiatyczeCity);
 displayCommune(stawiskiCommune);
 displayCommune(surazCommune);
 displayCommune(suwalkiCity);
 displayCommune(turoslCommune);
+displayCommune(wasilkowCommune);
 displayCommune(wasoszCommune);
+displayCommune(wysokieMazowieckieCity);
+displayCommune(zambrowCity);
+displayCommune(zambrowCommune);
 
