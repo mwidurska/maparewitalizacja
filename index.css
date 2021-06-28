@@ -11,10 +11,12 @@
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
     max-width: 250px;
+    
 }
+
 .info h2 {
     margin: 0 0 5px;
-    color: #777;
+   
 }
 
 .legend {
@@ -33,3 +35,19 @@
     display: inline-block;
     float: none;
   }
+
+.environmental{
+    background-color: #65E2AC;
+    margin: -6px -8px;
+    padding: 6px 8px 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.spatial{
+    background-color: #FFD568;
+    margin: -6px -8px;
+    padding: 6px 8px 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
