@@ -89,8 +89,8 @@ function displayCommune(unit) {
     L.geoJSON(unit, {
         style: function (feature) {
             switch (feature.properties.PRtype) {
-                case 'LPR': return { color: "#ff0000" };
-                case 'GPR': return { color: '#0000ff' };
+                case 'LPR': return { color: "#cc393d" };
+                case 'GPR': return { color: '#2e5984' };
             };
         },
         pointToLayer: function (feature, latlng) {
@@ -129,7 +129,7 @@ info.update = function (props) {
             '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
         } else {
-            this._div.innerHTML = '<h2>Informacje o projekcie</h2>' + '<b><p>Tytuł projektu: ' + props.title + '</b></p><p>' + props.description +
+            this._div.innerHTML = '<div class="'+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
             '</p>';
         }
 
@@ -146,7 +146,7 @@ legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend');
 
-    div.innerHTML = '<i style="background:#ff0000"></i> LPR <br/><i style="background:#0000ff"></i> GPR';
+    div.innerHTML = '<i style="background:#cc393d"></i> LPR <br/><i style="background:#2e5984"></i> GPR';
 
     return div;
 };
@@ -157,7 +157,10 @@ displayCommune(augustowCity);
 displayCommune(bialowiezaCommune);
 displayCommune(bielskPodlaskiCity);
 displayCommune(bockiCommune);
+displayCommune(choroszczCommune);
 displayCommune(czarnaBialostockaCommune);
+displayCommune(dabrowaBialostockaCommune);
+displayCommune(grajewoCity);
 displayCommune(grodekCommune);
 displayCommune(hajnowkaCity);
 displayCommune(hajnowkaCommune);
@@ -168,13 +171,18 @@ displayCommune(krynkiCommune);
 displayCommune(lapyCommune);
 displayCommune(lomzaCity);
 displayCommune(lomzaCommune);
+displayCommune(malyPlockCommune);
 displayCommune(monkiCommune);
 displayCommune(narewkaCommune);
+displayCommune(piatnicaCommune);
+displayCommune(rajgrodCommune);
 displayCommune(sejnyCity);
 displayCommune(siemiatyczeCity);
+displayCommune(sokolkaCommune);
 displayCommune(stawiskiCommune);
 displayCommune(surazCommune);
 displayCommune(suwalkiCity);
+displayCommune(szudzialowoCommune);
 displayCommune(turoslCommune);
 displayCommune(wasilkowCommune);
 displayCommune(wasoszCommune);
