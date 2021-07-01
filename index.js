@@ -41,11 +41,11 @@ var RevIcon = L.Icon.extend({
     }
 });
 
-var socialIcon = new RevIcon({ iconUrl: 'social.png' }),
+var socialIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/200/0x0.png' }),
     environmentIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/176/0x0.png' }),
-    economicIcon = new RevIcon({ iconUrl: 'economic.png' }),
+    economicIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/199/0x0.png' }),
     spatialIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/179/0x0.png' }),
-    technicalIcon = new RevIcon({ iconUrl: 'technical.png' });
+    technicalIcon = new RevIcon({ iconUrl: 'https://rewitalizacja.wrotapodlasia.pl/resource/image/154/1175/106/203/0x0.png' });
 
 function zoomToFeature(e) {
 
