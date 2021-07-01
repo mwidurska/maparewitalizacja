@@ -371,20 +371,45 @@ var hajnowkaCity = {
             }
 
 
-        }, {
+        }, {   
+	"type": "Feature",
+	"properties": {
+		"title": "Poprawa funkcjonalności i estetyki otwartych przestrzeni miejskich",
+        "sphere": "spatial",
+        "description": "W ramach projektu planowane jest utworzenie pasażu pieszego od ul. 3 Maja do ul. Parkowej wraz z utworzeniem i modernizacją infrastruktury do handlu produktami lokalnymi",
 
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
+        },
 
-            }
-        }, 
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.58718, 52.73755]
+        }
+
+}, {   
+	"type": "Feature",
+	"properties": {
+		"title": "Poprawa funkcjonalności i estetyki otwartych przestrzeni miejskich",
+        "sphere": "spatial",
+        "description": "Projekt dotyczy poprawy funkcjonalności i estetyki terenów wokół budynków Przychodni Rejonowej nr 1 w Hajnówce i SP ZOZ w Hajnówce. W ramach projektu planowany jest remont chodników  i  parkingów  przy  obu  lokalizacjach, czyszczenie elewacji budynków Szpitala oraz Przychodni Rejonowej Nr 1, a także zagospodarowanie przestrzeni wokół SP ZOZ w Hajnówce, czyli ustawienie tzw. małej architektury: ławek, stojaków na rowery, itp.",
+
+        },
+
+	  "geometry": {
+		"type": "GeometryCollection",
+		"geometries": [
+			{
+			"type": "Point",
+			"coordinates": [23.61155, 52.74611]
+			},
+			{
+			"type": "Point",
+			"coordinates": [23.59142, 52.73557]
+			},
+			]
+        }
+
+
+}, 
     ]
 };
 
