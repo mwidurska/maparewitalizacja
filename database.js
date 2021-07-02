@@ -20,19 +20,6 @@ var augustowCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -59,19 +46,6 @@ var bialowiezaCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -98,19 +72,6 @@ var bielskPodlaskiCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -137,20 +98,7 @@ var bockiCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },  
     ]
 };
 
@@ -176,19 +124,6 @@ var choroszczCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -215,20 +150,7 @@ var czarnaBialostockaCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },  
     ]
 };
 
@@ -254,19 +176,6 @@ var dabrowaBialostockaCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -293,19 +202,6 @@ var grajewoCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -332,19 +228,6 @@ var grodekCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -435,31 +318,7 @@ var hajnowkaCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "bhfjebhbgj projekt",
-                "sphere": "spatial",
-                "description": "opis projektu bsbfsbfbsh hfbdkbksb fkerhke",
-
-            }
-        }, {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [ 23.57373, 52.73842]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "feghrhebhfjebhbgj projekt",
-                "sphere": "environmental",
-                "description": "opis projektu bsbfsbfbsh hfbdkbksb fkerhke",
-
-            },
+        }, 
 
         }
     ]
@@ -487,19 +346,6 @@ var juchnowiecKoscielnyCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -526,19 +372,6 @@ var kolnoCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -565,19 +398,6 @@ var kolnoCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -604,19 +424,6 @@ var krynkiCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -643,19 +450,6 @@ var lapyCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -682,19 +476,6 @@ var lomzaCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -721,30 +502,7 @@ var lomzaCommune = {
 
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [22.00128, 53.16759]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "bhfjebhbgj projekt",
-                "sphere": "spatial",
-                "description": "Opis projektu",
-            }
-        }, {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [22.08833, 53.11722]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "feghrhebhfjebhbgj projekt",
-                "sphere": "environmental",
-                "description": "Opis projektu",
-
-            },
+        }, 
 
         }
     ]
@@ -772,20 +530,7 @@ var malyPlockCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },  
     ]
 };
 
@@ -811,19 +556,6 @@ var monkiCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -850,19 +582,6 @@ var narewkaCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -889,20 +608,7 @@ var piatnicaCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },  
     ]
 };
 
@@ -928,20 +634,7 @@ var rajgrodCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },  
     ]
 };
 
@@ -967,19 +660,6 @@ var sejnyCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1006,20 +686,7 @@ var siemiatyczeCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },
     ]
 };
 
@@ -1045,20 +712,7 @@ var sokolkaCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },  
     ]
 };
 
@@ -1084,19 +738,6 @@ var stawiskiCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1123,19 +764,6 @@ var surazCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1162,20 +790,7 @@ var suwalkiCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
-        }, 
+        },  
     ]
 };
 
@@ -1201,19 +816,6 @@ var szudzialowoCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1240,19 +842,6 @@ var turoslCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1279,19 +868,6 @@ var wasilkowCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1318,19 +894,6 @@ var wasoszCommune = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1357,19 +920,6 @@ var wysokieMazowieckieCity = {
             }
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [23.58808, 52.73440]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "projekt1",
-                "sphere": "spatial",
-                "description": "przykładowy opis projektu",
-
-            }
         }, 
     ]
 };
@@ -1396,30 +946,7 @@ var zambrowCity = {
 
 
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [22.00128, 53.16759]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "Projekt 1",
-                "sphere": "spatial",
-                "description": "Opis projektu",
-            }
-        }, {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [22.08833, 53.11722]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "Projekt 2",
-                "sphere": "environmental",
-                "description": "Opis projektu",
-
-            },
+        }, 
 
         }
     ]
@@ -1444,18 +971,6 @@ var zambrowCommune = {
                 ]]]
             }
 
-        }, {
-
-            "geometry": {
-                "type": "Point",
-                "coordinates": [22.00128, 53.16759]
-            },
-            "type": "Feature",
-            "properties": {
-                "title": "Projekt 1",
-                "sphere": "spatial",
-                "description": "Opis projektu",
-            }
         }, 
     ]
 };
