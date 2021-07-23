@@ -311,7 +311,7 @@ var hajnowkaCity = {
 		"geometries": [
 			{
 			"type": "Point",
-			"coordinates": [23.57912, 52.74685]
+			"coordinates": [23.57899, 52.74726]
 			},
 			{
 			"type": "Polygon",
