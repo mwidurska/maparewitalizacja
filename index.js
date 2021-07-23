@@ -1,5 +1,3 @@
-//var map = L.map('rev_map').setView([53.34009, 22.96185], 8, layers: [base]);
-
 var base = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYW5va2VzaCIsImEiOiJja29vOTV2dHkwOTJ0MnBvNWRrdTVkcmc3In0.29EcVcr8uQ1bL_-4j9SWmg', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
@@ -52,7 +50,7 @@ function zoomToFeature(e) {
     if (e.target._bounds) {
         map.fitBounds(e.target.getBounds());
     } else {
-        map.setView(e.latlng, 16);
+        map.setView(e.latlng, 17);
     };
     var layer = e.target;
     info.update(layer.feature.properties);
@@ -88,11 +86,20 @@ function onEachFeature(feature, layer) {
 function displayCommune(unit) {
     L.geoJSON(unit, {
         style: function (feature) {
+          if (feature.properties.PRtype){
             switch (feature.properties.PRtype) {
                 case 'LPR': return { color: "#cc393d" };
-                case 'GPR': return { color: '#2e5984' };
-                default : return { color: '#000000'};
-            };
+                case 'GPR': return { color: '#2e5984' };  
+            }
+             } else if (feature.properties.sphere){
+             switch (feature.properties.sphere) {
+                case 'social': return { color: "#4caef9" };
+                case 'environmental': return { color: "#65e2ac" };
+                case 'economic': return { color: "#3b5792" };
+                case 'spatial': return { color: "#ffd568" };
+                case 'technical': return { color: "#ed896a" };
+           }
+             }
         },
         pointToLayer: function (feature, latlng) {
             switch (feature.properties.sphere) {
@@ -190,4 +197,3 @@ displayCommune(wasoszCommune);
 displayCommune(wysokieMazowieckieCity);
 displayCommune(zambrowCity);
 displayCommune(zambrowCommune);
-
