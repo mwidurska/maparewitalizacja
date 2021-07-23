@@ -15,14 +15,11 @@
 }
 
 .info h2 {
-    margin: 0 0 6px;
+    margin: 0 0 10px;
    
 }
 
-.info p {
-    margin: 0 0 6px;
-   
-}
+
 .legend {
     line-height: 18px;
     color: #555;
@@ -40,18 +37,31 @@
     float: none;
   }
 
+.photo img{
+   width: 250px;
+}
+
 .environmental{
     background-color: #65E2AC;
-    margin: -6px -8px;
+    margin: -6px -8px 2px;
     padding: 6px 8px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
+.environmental p {
+    margin: 0 0 6px;
+}
+
 .spatial{
     background-color: #FFD568;
-    margin: -6px -8px;
+    margin: -6px -8px 2px;
     padding: 6px 8px;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;  
 }
+.spatial p {
+    margin: 0 0 6px;
+}
+
+
