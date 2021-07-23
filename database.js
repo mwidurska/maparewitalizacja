@@ -1,4 +1,4 @@
-var augustowCity = {
+  var augustowCity = {
     "type": "FeatureCollection",
     "features": [
         {
@@ -260,7 +260,7 @@ var hajnowkaCity = {
 		"title": "Modernizacja kompleksu  sportowo – rekreacyjnego OSiR  – nadanie nowych funkcji dla obiektu zdegradowanego zabezpieczających  potrzeby  społeczne i gospodarcze osób zamieszkałych na terenie miasta Hajnówka, w tym w obszarze zdegradowanym.",
         "sphere": "spatial",
         "description": "Projekt składał się z kilku etapów. Miasto zmodernizowało stadion, zbudowało dwa baseny w miejscu starych, które już nie nadawały się do użytku, a także zagospodarowało teren Ośrodka Sportu i Rekreacji.</p><p>Stadion w Hajnówce przeszedł gruntowną modernizację. Amatorzy sportu mogą korzystać z boiska do piłki nożnej, kortów tenisowych oraz boiska do siatkówki. Znajduje się tu też stadion lekkoatletyczny i bieżnia.</p><p>Nowe baseny - mały i duży, będą służyć zarówno dzieciom jak i dorosłym. Mieszkańcy mogą z nich korzystać bezpłatnie.",
-
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/11238/16933/0x0.jpg",
         },
 
 	  "geometry": {
@@ -273,7 +273,9 @@ var hajnowkaCity = {
 			{
 			"type": "Polygon",
 			"coordinates": [[
-				[23.5807136, 52.7484916],[23.5820070, 52.7484812],[23.5815788, 52.7452865],[23.5813475, 52.7452097],[23.5793683, 52.7460459],[23.5798831, 52.7468760],[23.5792601, 52.7477009],[23.5807136, 52.7484916]
+				[23.5807136, 52.7484916],[23.5820070, 52.7484812],[23.5815788, 52.7452865],
+              [23.5813475, 52.7452097],[23.5793683, 52.7460459],[23.5798831, 52.7468760],
+              [23.5792601, 52.7477009],[23.5807136, 52.7484916],
 				]]
 			},
 			]
