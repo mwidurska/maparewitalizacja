@@ -91,6 +91,7 @@ function displayCommune(unit) {
             switch (feature.properties.PRtype) {
                 case 'LPR': return { color: "#cc393d" };
                 case 'GPR': return { color: '#2e5984' };
+                default : return { color: '#000000'};
             };
         },
         pointToLayer: function (feature, latlng) {
