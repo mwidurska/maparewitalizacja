@@ -257,6 +257,32 @@ var hajnowkaCity = {
         }, {   
 	"type": "Feature",
 	"properties": {
+		"title": "Modernizacja kompleksu  sportowo – rekreacyjnego OSiR  – nadanie nowych funkcji dla obiektu zdegradowanego zabezpieczających  potrzeby  społeczne i gospodarcze osób zamieszkałych na terenie miasta Hajnówka, w tym w obszarze zdegradowanym.",
+        "sphere": "spatial",
+        "description": "Projekt składał się z kilku etapów. Miasto zmodernizowało stadion, zbudowało dwa baseny w miejscu starych, które już nie nadawały się do użytku, a także zagospodarowało teren Ośrodka Sportu i Rekreacji.</p><p>Stadion w Hajnówce przeszedł gruntowną modernizację. Amatorzy sportu mogą korzystać z boiska do piłki nożnej, kortów tenisowych oraz boiska do siatkówki. Znajduje się tu też stadion lekkoatletyczny i bieżnia.</p><p>Nowe baseny - mały i duży, będą służyć zarówno dzieciom jak i dorosłym. Mieszkańcy mogą z nich korzystać bezpłatnie.",
+
+        },
+
+	  "geometry": {
+		"type": "GeometryCollection",
+		"geometries": [
+			{
+			"type": "Point",
+			"coordinates": [23.58077, 52.74712]
+			},
+			{
+			"type": "Polygon",
+			"coordinates": [[
+				[23.5087136, 52.7484916],[23.5820070, 52.7484812],[23.5815788, 52.7452865],[23.5813475, 52.7452097],[23.5793683, 52.7460459],[23.5798831, 52.7468760],[23.5792601, 52.7477009],[23.5807136, 52.7484916]
+				]]
+			},
+			]
+        }
+
+
+}, {   
+	"type": "Feature",
+	"properties": {
 		"title": "Poprawa funkcjonalności i estetyki otwartych przestrzeni miejskich",
         "sphere": "spatial",
         "description": "W ramach projektu planowane jest utworzenie pasażu pieszego od ul. 3 Maja do ul. Parkowej wraz z utworzeniem i modernizacją infrastruktury do handlu produktami lokalnymi",
@@ -267,30 +293,6 @@ var hajnowkaCity = {
         "type": "Point",
         "coordinates": [23.58718, 52.73755]
         }
-
-}, {   
-	"type": "Feature",
-	"properties": {
-		"title": "Poprawa funkcjonalności i estetyki otwartych przestrzeni miejskich",
-        "sphere": "spatial",
-        "description": "Projekt dotyczy poprawy funkcjonalności i estetyki terenów wokół budynków Przychodni Rejonowej nr 1 w Hajnówce i SP ZOZ w Hajnówce. W ramach projektu planowany jest remont chodników  i  parkingów  przy  obu  lokalizacjach, czyszczenie elewacji budynków Szpitala oraz Przychodni Rejonowej Nr 1, a także zagospodarowanie przestrzeni wokół SP ZOZ w Hajnówce, czyli ustawienie tzw. małej architektury: ławek, stojaków na rowery, itp.",
-
-        },
-
-	  "geometry": {
-		"type": "GeometryCollection",
-		"geometries": [
-			{
-			"type": "Point",
-			"coordinates": [23.61155, 52.74611]
-			},
-			{
-			"type": "Point",
-			"coordinates": [23.59142, 52.73557]
-			},
-			]
-        }
-
 
 }, 
     ]
