@@ -1,3 +1,5 @@
+//var map = L.map('rev_map').setView([53.34009, 22.96185], 8, layers: [base]);
+
 var base = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYW5va2VzaCIsImEiOiJja29vOTV2dHkwOTJ0MnBvNWRrdTVkcmc3In0.29EcVcr8uQ1bL_-4j9SWmg', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
