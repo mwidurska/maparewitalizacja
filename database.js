@@ -283,18 +283,47 @@ var hajnowkaCity = {
 }, {   
 	"type": "Feature",
 	"properties": {
-		"title": "Poprawa funkcjonalności i estetyki otwartych przestrzeni miejskich",
-        "sphere": "spatial",
-        "description": "W ramach projektu planowane jest utworzenie pasażu pieszego od ul. 3 Maja do ul. Parkowej wraz z utworzeniem i modernizacją infrastruktury do handlu produktami lokalnymi",
+		"title": " Spacery tematyczne z przewodnikiem.",
+        "sphere": "social",
+        "description": "Opis",
 
         },
 
     "geometry": {
-        "type": "Point",
-        "coordinates": [23.58718, 52.73755]
+        "type": "MultiLineString",
+        "coordinates": [
+		[[23.5817705, 52.7393209],[23.5818859, 52.7393960],[23.5818952, 52.7394046],[23.5826293, 52.7400819],[23.5831796, 52.7404858],[23.5835909, 52.7407779],[23.5850575, 52.7417321]],
+		[[23.5817705, 52.7393209],[23.5818859, 52.7393960],[23.5818952, 52.7394046],[23.5826293, 52.7400819],[23.5831796, 52.7404858],[23.5835909, 52.7407779],[23.5850575, 52.7417321]]
+		]
         }
 
-}, 
+}, {   
+	"type": "Feature",
+	"properties": {
+		"title": " Zagospodarowanie terenu wokół Hajnowskiego Domu Kultury w celu nadania funkcji kulturalno–społecznej.",
+        "sphere": "spatial",
+        "description": "Przy Hajnowskim Domu Kultury powstała Rodzinna Strefa Zabaw. To supermiejsce dla małych i dużych. Dla dzieci: huśtawki, karuzela, bujaki, dla dorosłych: wygodne leżaki i dostęp do Wi-Fi.</p><p>Rodzinna Strefa Zabaw wyposażona jest m.in. w huśtawki, karuzelę, bujaki, różne urządzenia sprawnościowe. Jest tam również wiata z systemem zasilania solarnego (z możliwością ładowania urządzeń mobilnych). Rodzice, czekając na dzieci, mogą odpocząć na wygodnych wyprofilowanych leżakach, przy których znajdują się parkowe stoliki.</p><p>Inwestycja już w dniu otwarcia podbiła serca hajnowian.",
+
+        },
+
+	  "geometry": {
+		"type": "GeometryCollection",
+		"geometries": [
+			{
+			"type": "Point",
+			"coordinates": [23.57912, 52.74685]
+			},
+			{
+			"type": "Polygon",
+			"coordinates": [[
+				[23.57845, 52.74711],[23.57881, 52.74697],[23.57967, 52.74706],[23.57922, 52.74772],[23.57887, 52.74752]
+				]]
+			},
+			]
+        }
+
+
+},
     ]
 };
 
