@@ -323,6 +323,20 @@ var hajnowkaCity = {
         }
 
 
+},{   
+	"type": "Feature",
+	"properties": {
+		"title": "EKO-Hajnówka – rozbudowa sieci dystrybucji ciepła na terenie miasta wraz z wymianą źródeł ciepła w gospodarstwach domowych oraz wymianą oświetlenia na energooszczędne.",
+        "sphere": "environmental",
+        "description": "W ramach projektu zmodernizowano piece w 37 prywtanych budynkach mieszkalnych, wymieniono 2011 punktów oświetlenia ulicznego na energooszczędne, a także zakupiono stację do pomiaru czystości powietrza. Aktualny stan jakości powietrza mieszkańcy mogą sprawdzić na stronie internetowej miasta.",
+
+        },
+
+    "geometry": {
+        "type": "Point",
+        "coordinates": [23.5894431, 52.7374633]
+        }
+
 },
     ]
 };
