@@ -15,10 +15,14 @@
 }
 
 .info h2 {
-    margin: 0 0 5px;
+    margin: 0 0 6px;
    
 }
 
+.info p {
+    margin: 0 0 6px;
+   
+}
 .legend {
     line-height: 18px;
     color: #555;
