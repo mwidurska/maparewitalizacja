@@ -37,9 +37,12 @@
     float: none;
   }
 
-.photo img{
+.photo {
    width: 250px;
 }
+
+img{
+    width: 100%;}
 
 .environmental{
     background-color: #65E2AC;
