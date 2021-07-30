@@ -21,7 +21,7 @@
 
 .legend {
     line-height: 18px;
-    color: #555;
+    color: #000000;
 }
 .legend i {
     width: 16px;
@@ -39,13 +39,28 @@
 .photo img{
     width: 250px;
 }
-
-.environmental{
-    background-color: #65E2AC;
+.social{
+    background-color: #4caef9;
     margin: -6px -8px 6px -8px;
     padding: 6px 8px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.environmental{
+    background-color: #65e2ac;
+    margin: -6px -8px 6px -8px;
+    padding: 6px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+}
+
+.economic{
+    background-color: #3b5792;
+    margin: -6px -8px 6px -8px;
+    padding: 6px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
 }
 
 .spatial{
@@ -56,3 +71,10 @@
     border-top-right-radius: 5px;  
 }
 
+.technical{
+    background-color: #ed896a;
+    margin: -6px -8px 6px -8px;
+    padding: 6px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+}
