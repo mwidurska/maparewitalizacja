@@ -138,9 +138,12 @@ info.update = function (props) {
             + props.PRtype + '</p><p>Tytuł programu: '+ props.PRname + '</p><p>' + props.description + 
             '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
+        } else if(props.picture){
+            this._div.innerHTML = '<div class="'+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
+            '</p><div class="photo"><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
         } else {
             this._div.innerHTML = '<div class="'+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
-            '</p><div class="photo"><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img src="'+props.picture+'" alt="zdj"> </a></div>';
+            '</p></div>';
         }
 
     } else {
