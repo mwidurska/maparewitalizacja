@@ -261,6 +261,7 @@ var hajnowkaCity = {
         "sphere": "spatial",
         "description": "Projekt składał się z kilku etapów. Miasto zmodernizowało stadion, zbudowało dwa baseny w miejscu starych, które już nie nadawały się do użytku, a także zagospodarowało teren Ośrodka Sportu i Rekreacji.</p><p>Stadion w Hajnówce przeszedł gruntowną modernizację. Amatorzy sportu mogą korzystać z boiska do piłki nożnej, kortów tenisowych oraz boiska do siatkówki. Znajduje się tu też stadion lekkoatletyczny i bieżnia.</p><p>Nowe baseny - mały i duży, będą służyć zarówno dzieciom jak i dorosłym. Mieszkańcy mogą z nich korzystać bezpłatnie.",
         "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/11238/16933/0x0.jpg",
+        "pictureAlt": "Stadion lekkoatletyczny na terenie Ośrodka Sportu i Rekreacji w Hajnówce"
         },
 
 	  "geometry": {
@@ -292,11 +293,22 @@ var hajnowkaCity = {
         },
 
     "geometry": {
-        "type": "MultiLineString",
+        "type": "GeometryCollection",
+		"geometries": [
+			{
+			"type": "Point",
+			"coordinates": [23.58493, 52.74182]
+			},
+			{
+			"type": "MultiLineString",
         "coordinates": [
 		[[23.5817705, 52.7393209],[23.5818859, 52.7393960],[23.5818952, 52.7394046],[23.5826293, 52.7400819],[23.5831796, 52.7404858],[23.5835909, 52.7407779],[23.5850575, 52.7417321]],
-		[[23.5817705, 52.7393209],[23.5818859, 52.7393960],[23.5818952, 52.7394046],[23.5826293, 52.7400819],[23.5831796, 52.7404858],[23.5835909, 52.7407779],[23.5850575, 52.7417321]]
+		[[23.5848163, 52.7419053],[23.5847098, 52.7418656],[23.5845966, 52.7418556],[23.5832167, 52.7419472],[23.5826798, 52.7419760],[23.5822658, 52.7419518],[23.5818397, 52.7418683],
+         [23.5814944, 52.7417866],[23.5814429, 52.7417667],[23.5811684, 52.7416686],[23.5807425, 52.7414607],[23.5806783, 52.7414288],[23.5805573, 52.7413687]],
+          [[23.5856828, 52.7391176],[23.5840318, 52.7400192],[23.5831796, 52.7404858]],
 		]
+			},
+			]
         }
 
 }, {   
@@ -304,8 +316,9 @@ var hajnowkaCity = {
 	"properties": {
 		"title": " Zagospodarowanie terenu wokół Hajnowskiego Domu Kultury w celu nadania funkcji kulturalno–społecznej.",
         "sphere": "spatial",
-        "description": "Przy Hajnowskim Domu Kultury powstała Rodzinna Strefa Zabaw. To supermiejsce dla małych i dużych. Dla dzieci: huśtawki, karuzela, bujaki, dla dorosłych: wygodne leżaki i dostęp do Wi-Fi.</p><p>Rodzinna Strefa Zabaw wyposażona jest m.in. w huśtawki, karuzelę, bujaki, różne urządzenia sprawnościowe. Jest tam również wiata z systemem zasilania solarnego (z możliwością ładowania urządzeń mobilnych). Rodzice, czekając na dzieci, mogą odpocząć na wygodnych wyprofilowanych leżakach, przy których znajdują się parkowe stoliki.</p><p>Inwestycja już w dniu otwarcia podbiła serca hajnowian.",
-
+        "description": "Przy Hajnowskim Domu Kultury powstała Rodzinna Strefa Zabaw. To supermiejsce dla małych i dużych. Dla dzieci: huśtawki, karuzela, bujaki, dla dorosłych: wygodne leżaki i dostęp do Wi-Fi.</p><p>Rodzinna Strefa Zabaw wyposażona jest m.in. w huśtawki, karuzelę, bujaki, różne urządzenia sprawnościowe. Jest tam również wiata z systemem zasilania solarnego (z możliwością ładowania urządzeń mobilnych). Rodzice, czekając na dzieci, mogą odpocząć na wygodnych wyprofilowanych leżakach, przy których znajdują się parkowe stoliki.</p><p>Inwestycja już w dniu otwarcia podbiła serca hajnowian, zwłaszcza tych najmłodszych.",
+        "picture": "https://rpo.wrotapodlasia.pl/resource/image/236/333/8679/13713/0x0.jpg",
+         "pictureAlt": "Dzieci bawią się na siatkowej konstrukcji",
         },
 
 	  "geometry": {
@@ -331,7 +344,7 @@ var hajnowkaCity = {
 		"title": "EKO-Hajnówka – rozbudowa sieci dystrybucji ciepła na terenie miasta wraz z wymianą źródeł ciepła w gospodarstwach domowych oraz wymianą oświetlenia na energooszczędne.",
         "sphere": "environmental",
         "description": "W ramach projektu zmodernizowano piece w 37 prywatnych budynkach mieszkalnych, wymieniono 2011 punktów oświetlenia ulicznego na energooszczędne, a także zakupiono stację do pomiaru czystości powietrza.</p><p>Aktualny stan jakości powietrza mieszkańcy mogą sprawdzić na stronie internetowej miasta.",
-
+         
         },
 
     "geometry": {
