@@ -1,5 +1,5 @@
 .map{
-    width:1140px;
+    
     height:800px;
 }
 
@@ -16,9 +16,8 @@
 
 .info h2 {
     margin: 0 0 10px;
-   
+    color: #000000;
 }
-
 
 .legend {
     line-height: 18px;
@@ -37,9 +36,8 @@
     float: none;
   }
 
-.photo {
-   width: 250px;
-}
+.photo img{
+    width: 250px;
 
 .environmental{
     background-color: #65E2AC;
