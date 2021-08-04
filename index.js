@@ -124,7 +124,6 @@ var info = L.control();
 
 info.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-    this._div.class = "col-xs-3";
     this.update();
     return this._div;
 };
