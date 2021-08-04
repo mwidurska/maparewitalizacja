@@ -1,6 +1,6 @@
 .map{
     
-    height:800px;
+    height:750px;
 }
 
 .info {
@@ -9,7 +9,6 @@
     background: rgba(255,255,255,0.9);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
-    max-width: 250px;
     color: #000000; 
 }
 
@@ -35,9 +34,7 @@
     float: none;
   }
 
-.photo img{
-    width: 250px;
-}
+
 .social{
     background-color: #4caef9;
     margin: -6px -8px 6px -8px;
