@@ -9,14 +9,18 @@
     background: rgba(255,255,255,0.9);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
-    max-width: 25%;
-    font: 14px/16px Arial, Helvetica, sans-serif;
+    max-width: 25vw;
+    font: Arial, Helvetica, sans-serif;
     color: #000000; 
 }
 
 .info h2 {
+    font-size: 3vmin;
     margin: 0 0 10px;
     color: #000000;
+}
+.info p {
+    font-size: 2vmin;
 }
 
 .legend {
