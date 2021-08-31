@@ -140,7 +140,7 @@ info.update = function (props) {
 
         } else if(props.picture){
             this._div.innerHTML = '<div class="'+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
-            '</p><div class="photo"><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
+            '</p><div class="photo"><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
         } else {
             this._div.innerHTML = '<div class="'+ props.sphere + '"><h2>Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
             '</p></div>';
