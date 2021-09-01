@@ -11,10 +11,11 @@
     border-radius: 5px;
     width: 20vw;
     color: #000000; 
+    font: 12px/1.5 Arial,"Helvetica Neue", Helvetica, sans-serif;
 }
 .infoH2{
      color: #000000; 
-     font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+     font: 16px/1.5 Arial,"Helvetica Neue", Helvetica, sans-serif;
 }
 
 .legend {
