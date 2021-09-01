@@ -16,6 +16,7 @@
 .legend {
     line-height: 18px;
     color: #000000;
+    max-width: 80px;
 }
 .legend i {
     width: 16px;
@@ -29,9 +30,9 @@
     display: inline-block;
     float: none;
   }
+
 .projectImg{
-    width: 18vw;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .social{
