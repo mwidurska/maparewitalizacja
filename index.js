@@ -134,7 +134,7 @@ info.update = function (props) {
 
     if (props) {
         if (props.PRtype) {
-            this._div.innerHTML = '<h2>Informacje o gminie</h2>' + '<b><p>' + props.name + '</b></p><p>Rodzaj programu: ' 
+            this._div.innerHTML = '<h2 class="infoH2">Informacje o gminie</h2>' + '<b><p>' + props.name + '</b></p><p>Rodzaj programu: ' 
             + props.PRtype + '</p><p>Tytuł programu: '+ props.PRname + '</p><p>' + props.description + 
             '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
