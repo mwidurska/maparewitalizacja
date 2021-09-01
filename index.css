@@ -12,6 +12,10 @@
     width: 20vw;
     color: #000000; 
 }
+.infoH2{
+     color: #000000; 
+     font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
 
 .legend {
     line-height: 18px;
