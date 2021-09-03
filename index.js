@@ -134,15 +134,14 @@ info.update = function (props) {
 
     if (props) {
         if (props.PRtype) {
-            this._div.innerHTML = '<h2 class="infoH2">Informacje o gminie</h2>' + '<b><p>' + props.name + '</b></p><p>Rodzaj programu: ' 
-            + props.PRtype + '</p><p>Tytuł programu: '+ props.PRname + '</p><p>' + props.description + 
-            '</p><p><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
+            this._div.innerHTML = '<h2 class="infoH2">Informacje o gminie</h2>' + '<b><p class="infoP">' + props.name + '</b></p><p class="infoP">Rodzaj programu: ' 
+            + props.PRtype + '</p><p class="infoP">Tytuł programu: '+ props.PRname + '</p><p class="infoP">' + props.description + 
+            '</p><p class="infoP"><a href="'+props.link+'"target="_blank" title="Strona otworzy się w nowej karcie"> Link do programu rewitalizacji </a></p>';
 
         } else if(props.picture){
-            this._div.innerHTML = '<div class="'+ props.sphere + '"><h2 class="infoH2">Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
-            '</p><div class="photo"><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
+            this._div.innerHTML = '<div class="'+ props.sphere + '"><h2 class="infoH2">Informacje o projekcie</h2>' + '<p class="infoP"><b>Tytuł projektu: ' + props.title + '</b></p></div><p class="infoP">' + props.description +'</p><div class="photo"><a href="'+props.picture+'"target="_blank" title="Zdjęcie otworzy się w nowej karcie"> <img class="projectImg" src="'+props.picture+'" alt="'+props.pictureAlt+'"> </a></div>';
         } else {
-            this._div.innerHTML = '<div class="'+ props.sphere + '"><h2 class="infoH2">Informacje o projekcie</h2>' + '<p><b>Tytuł projektu: ' + props.title + '</b></p></div><p>' + props.description +
+            this._div.innerHTML = '<div class="'+ props.sphere + '"><h2 class="infoH2">Informacje o projekcie</h2>' + '<p class="infoP"><b>Tytuł projektu: ' + props.title + '</b></p></div><p class="infoP">' + props.description +
             '</p></div>';
         }
 
