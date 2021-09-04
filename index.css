@@ -1,24 +1,14 @@
-.map{
-    
-    height:80vh;
+.map {
+    height: 80vh;
 }
 
 .info {
     padding: 6px 8px;
     background: white;
-    background: rgba(255,255,255,0.9);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     width: 20vw;
-
-}
-.infoH2{
-    color: #000000; 
-    font: 16px/1.5 Arial,"Helvetica Neue", Helvetica, sans-serif;
-}
-.infoP{
-    color: #000000; 
-    font: 12px/1.5 Arial,"Helvetica Neue", Helvetica, sans-serif;
 }
 
 .legend {
@@ -37,48 +27,42 @@
 .leaflet-control-layers {
     display: inline-block;
     float: none;
-  }
-
-.projectImg{
-    width: 100%;
 }
 
-.social{
-    background-color: #4caef9;
+.projectImg {
+    width: 100%;
+
+}
+.sphere {
     margin: -6px -8px 6px -8px;
     padding: 6px 8px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+.sphere h2 {
+    color: #000000;
+    font: 16px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.sphere p {
+    color: #000000;
+    font: 12px/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.social {
+    background-color: #4caef9;
+}
 
-.environmental{
+.environmental {
     background-color: #65e2ac;
-    margin: -6px -8px 6px -8px;
-    padding: 6px 8px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;  
 }
 
-.economic{
+.economic {
     background-color: #3b5792;
-    margin: -6px -8px 6px -8px;
-    padding: 6px 8px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;  
 }
 
-.spatial{
-    background-color: #FFD568;
-    margin: -6px -8px 6px -8px;
-    padding: 6px 8px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;  
+.spatial {
+    background-color: #ffd568;
 }
 
-.technical{
+.technical {
     background-color: #ed896a;
-    margin: -6px -8px 6px -8px;
-    padding: 6px 8px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;  
 }
