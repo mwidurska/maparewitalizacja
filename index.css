@@ -2,6 +2,18 @@
     height: 80vh;
 }
 
+.mapTitle{
+    background: #404041;
+    
+}
+.mapTitle h1{
+    color: #ffa800;
+    margin: 0;
+    line-height: 40px;
+    padding: 13px 10px 18px;
+    font: 22px/24px "Open Sans Light",Arial,Helvetica,sans-serif;
+}
+
 .info {
     padding: 6px 8px;
     background: white;
